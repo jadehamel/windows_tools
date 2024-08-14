@@ -6,7 +6,7 @@ This repository is a collection of tools that I’m building to address various 
 
 ### 1. WinFixIt
 
-**WinFixIt** is a Windows utility designed to resolve folder integrity issues in your system. This tool helps clean up and fix problems in Windows directories that may cause errors or unexpected behavior.
+**[WinFixIt](https://github.com/jadehamel/windows_tools/tree/main/tools/win_fix_it)** is a Windows utility designed to resolve folder integrity issues in your system. This tool helps clean up and fix problems in Windows directories that may cause errors or unexpected behavior.
 
 #### Features
 
@@ -16,7 +16,7 @@ This repository is a collection of tools that I’m building to address various 
 
 ### 2. WSL Removal Script
 
-This script completely removes the Windows Subsystem for Linux (WSL) from a Windows machine. It unregisters all installed WSL distributions, disables the necessary Windows features, and deletes any leftover WSL-related files.
+**[WSL Removal](https://github.com/jadehamel/windows_tools/tree/main/tools/wsl_removal)** script completely removes the Windows Subsystem for Linux (WSL) from a Windows machine. It unregisters all installed WSL distributions, disables the necessary Windows features, and deletes any leftover WSL-related files.
 
 #### Features
 

@@ -24,6 +24,19 @@ This script completely removes the Windows Subsystem for Linux (WSL) from a Wind
 - **Clean-Up**: Deletes residual files associated with WSL, ensuring a thorough removal.
 - **No Reboot Required**: Typically does not require a system reboot, though it's recommended.
 
+### 3. Run Tools Script
+
+The `run_tools.bat` script allows you to execute both the `WinFixIt` and `WSL Removal Script` in sequence. This is a convenient way to run both tools with a single command.
+
+#### Usage
+
+1. **Run as Administrator**: To ensure both tools execute properly, run `run_tools.bat` with administrative privileges.
+2. **Process**:
+   - The script first runs the WSL Removal Script to remove the Windows Subsystem for Linux.
+   - Then, it runs the WinFixIt script to resolve any folder integrity issues on your system.
+
+3. **Completion**: Once the script has finished executing, you will see a message confirming that all scripts have been executed.
+
 ## Troubleshooting
 
 If you encounter any issues while running these scripts:
